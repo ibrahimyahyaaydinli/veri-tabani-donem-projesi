@@ -1,0 +1,45 @@
+#uye-content{
+    border: 1px solid red;
+    height: auto;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+#uye-bilgisi{
+    border: 1px solid black;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    background-color: aliceblue;
+}
+#uye-bilgisi h1{
+    font-family:sans-serif;
+    text-align: center;
+}
+#uye-islemleri{
+    border: 1px solid black;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    width: 59%;
+    float: right;
+    background-color: bisque;
+}
+
+.item{
+    margin: 5px;
+    font-size: 20px;
+    display: block;
+    font-family: sans-serif;
+    padding: 2px;
+    
+}
+.session-baslik{
+   display: inline-block;
+    border: 2px solid #f6870f;
+    border-top: 0px;
+    border-left: 0px;
+    box-shadow: 0px 0px 50px 1px #f6870f;
+    margin-right: 15px;
+}
